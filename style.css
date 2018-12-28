@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+body {
+  background-color: black;
+}
+
+body p {
+  font-family: "Roboto", sans-serif;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  color: #2c3e50;
+  margin: 50px 0;
+  text-align: center;
+}
+
+.white {
+  color: white;
+}
+
+/*
+************ SPLASH PAGE ************ 
+ */
+
+div#splash-text {
+  color: gray;
+  text-align: center;
+  font-size: 1.5em;
+  padding: 20px;
+  margin-top: 10%;
+  line-height: 2em;
+  font-family: "Roboto", sans-serif;
+}
+
+#extension-link-container {
+  margin-top: 20px;
+}
+
+a#extension-link {
+  color: gray;
+  text-decoration: none;
+  /* border: 1px solid gray;
+  border-radius: 5px; */
+  padding: 10px;
+  font-size: 0.6em;
+}
+
+a#extension-link:hover {
+  color: white;
+  text-decoration: none;
+  /* border: 1px solid gray;
+  border-radius: 5px; */
+  padding: 10px;
+  font-size: 0.6em;
+}
+
+
+/*
+************ SETTINGS ************ 
+ */
+
+#menu {
+  float: right;
+  margin-right: 20px;
+  text-align: right;
+  padding-top: 55px;
+  font-size: 1.2em;
+  color: gray;
+}
+
+#menu-title {
+  width: 15px;
+  height: 15px;
+}
+
+#menu-title:hover {
+  cursor: pointer;
+}
+
+#menu-options {
+  display: block;
+}
+
+#menu-options:hover {
+  cursor: pointer;
+}
+
+.menu-option {
+  padding-top: 5px;
+}
+
+.menu-option:hover {
+  color: white;
+}
+
+#about {
+  text-decoration: none;
+  color: gray;
+}
+
+/*
+************ ABOUT ************ 
+ */
+
+#gif-container {
+ width: 80%;
+ text-align: center;
+}
+
+#glances-gif {
+  display: block;
+  width: 40%;
+  margin-top: 7%;
+  margin-left: 15%;
+}
+
+#about-text {
+  color: gray;
+  font-size: 1.25em;
+  width: 75%;
+  margin: auto;
+  margin-top: 10%;
+  display: block;
+}
+
+#about-text a {
+  color: lightgray;
+  /* text-decoration: none; */
+}
+
+#about-text a:hover {
+  color: white;
+  /* text-decoration: none; */
+}
