@@ -38,6 +38,31 @@ h3 {
 ************ SPLASH PAGE ************ 
  */
 
+#gallery-title {
+  text-align: center;
+  padding: 20px;
+  font-size: 3em;
+  font-family: "Roboto", sans-serif;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+div#gallery {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 80%;
+}
+
+img.logo {
+  margin-left: 40%;
+  margin-right: 40%;
+  display: block;
+  width: 20%;
+  padding-top: 40px;
+}
+
 div#splash-text {
   color: gray;
   text-align: center;
@@ -69,7 +94,6 @@ a#extension-link:hover {
   padding: 10px;
   font-size: 0.6em;
 }
-
 
 /*
 ************ SETTINGS ************ 
@@ -119,8 +143,8 @@ a#extension-link:hover {
  */
 
 #gif-container {
- width: 80%;
- text-align: center;
+  width: 80%;
+  text-align: center;
 }
 
 #glances-gif {
@@ -128,6 +152,7 @@ a#extension-link:hover {
   width: 40%;
   margin-top: 7%;
   margin-left: 15%;
+  margin-bottom: 1%;
 }
 
 #about-text {
@@ -137,6 +162,10 @@ a#extension-link:hover {
   margin: auto;
   margin-top: 10%;
   display: block;
+}
+
+#credits {
+  font-size: 0.8em;
 }
 
 #about-text a {
