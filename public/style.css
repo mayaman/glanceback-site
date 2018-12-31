@@ -109,6 +109,17 @@ a#extension-link:hover {
   color: gray;
 }
 
+@media (max-width: 600px) {
+  #menu {
+    float: right;
+    margin-right: 20px;
+    text-align: right;
+    padding-top: 55px;
+    font-size: 2em;
+    color: gray;
+  }
+}
+
 #menu-title {
   width: 15px;
   height: 15px;
