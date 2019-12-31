@@ -56,25 +56,26 @@ div#gallery {
 }
 
 img.logo {
-  margin-left: 40%;
-  margin-right: 40%;
+  margin-left: 25%;
+  margin-right: 25%;
   display: block;
-  width: 20%;
+  width: 50%;
   padding-top: 40px;
 }
 
 div#splash-text {
-  color: gray;
+  color: #c9c9c9;
   text-align: center;
   font-size: 1.6em;
   padding: 20px;
-  margin-top: 5%;
+  padding-top: 0px;
+  /* margin-top: 5%; */
   line-height: 2em;
   font-family: "Roboto", sans-serif;
 }
 
 div#privacy-text {
-  color: gray;
+  color: #c9c9c9;
   text-align: center;
   font-size: 1.6em;
   padding: 20px;
@@ -91,7 +92,7 @@ div#privacy-text {
 }
 
 a#extension-link {
-  color: gray;
+  color: #c9c9c9;
   text-decoration: none;
   padding: 10px;
   font-size: 0.6em;
@@ -115,7 +116,7 @@ a#extension-link:hover {
   text-align: right;
   padding-top: 55px;
   font-size: 1.2em;
-  color: gray;
+  color: #c9c9c9;
 }
 
 @media (max-width: 600px) {
@@ -125,7 +126,7 @@ a#extension-link:hover {
     text-align: right;
     padding-top: 55px;
     font-size: 2em;
-    color: gray;
+    color: #c9c9c9;
   }
 }
 
@@ -156,7 +157,7 @@ a#extension-link:hover {
 
 #about {
   text-decoration: none;
-  color: gray;
+  color: #c9c9c9;
 }
 
 /*
@@ -177,7 +178,7 @@ a#extension-link:hover {
 }
 
 #about-text {
-  color: gray;
+  color: #c9c9c9;
   font-size: 0.9em;
   width: 75%;
   margin: auto;
@@ -195,10 +196,11 @@ img.squiggle {
 
 #credits {
   font-size: 0.8em;
+  padding-bottom: 20px;
 }
 
 #about-text a {
-  color: gray;
+  color: #c9c9c9;
   /* text-decoration: none; */
 }
 
@@ -208,8 +210,15 @@ img.squiggle {
 }
 
 #arrow {
-  height: 100px;
+  height: 85px;
   position: absolute;
-  margin-top: 5px;
-  transform: rotate(10deg);
+  margin-top: -13px;
+  margin-left: 311px;
+  transform: rotate(53deg) scaleY(-1);
+}
+
+.screengrab {
+  width: 100%;
+  border: 2px solid #c9c9c9;
+  margin-bottom: 15px;
 }
