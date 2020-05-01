@@ -17,6 +17,12 @@ html {
 
 body {
   background-color: black;
+  color: #c9c9c9;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 0px;
+  line-height: 26px;
+  font-family: "Roboto", sans-serif;
 }
 
 body p {
@@ -37,69 +43,63 @@ h3 {
 /*
 ************ SPLASH PAGE ************ 
  */
-
-#gallery-title {
-  text-align: center;
-  padding: 20px;
-  font-size: 3em;
-  font-family: "Roboto", sans-serif;
-  margin-top: 90px;
-  margin-bottom: 20px;
-}
-
 div#gallery {
-  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 90px;
   display: block;
-  width: 80%;
+  width: 60%;
 }
 
 img.logo {
-  margin-left: 25%;
-  margin-right: 25%;
+  margin: auto;
   display: block;
-  width: 50%;
-  padding-top: 40px;
+  width: 15%;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-div#splash-text {
-  color: #c9c9c9;
-  text-align: center;
-  font-size: 1.6em;
-  padding: 20px;
-  padding-top: 0px;
-  /* margin-top: 5%; */
-  line-height: 2em;
-  font-family: "Roboto", sans-serif;
+#reel {
+  margin: auto;
+  display: block;
+  width: 50%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#intro-text {
+  margin-top: 50px;
+  font-size: 28px;
+  line-height: 44px;
 }
 
 div#privacy-text {
   color: #c9c9c9;
   text-align: center;
-  font-size: 1.6em;
   padding: 20px;
   line-height: 2em;
   font-family: "Roboto", sans-serif;
 }
 
 #link-border {
-  width: 250px;
+  width: 300px;
 }
 
 #extension-link-container {
-  margin-top: 5%;
+  /* margin-top: 5%; */
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 a#extension-link {
   color: #c9c9c9;
   text-decoration: none;
-  padding: 10px;
-  font-size: 0.6em;
+  /* padding: 10px; */
+  /* font-size: 0.6em; */
   position: absolute;
-  left: 40%;
-  right: 40%;
-  padding-top: 25px;
+  left: 50%;
+  /* top: 50%; */
+  transform: translate(-50%, 175%);
 }
 
 a#extension-link:hover {
@@ -177,26 +177,22 @@ a#extension-link:hover {
   margin-bottom: 1%;
 }
 
+#splash-div {
+  padding-top: 5vh;
+}
+
 #about-text {
   color: #c9c9c9;
-  font-size: 0.9em;
-  width: 75%;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 25px;
   display: block;
   text-align: left;
-  line-height: 1.5em;
 }
 
 img.squiggle {
   margin: auto;
   display: block;
   width: 30%;
-}
-
-#credits {
-  font-size: 0.8em;
-  padding-bottom: 20px;
 }
 
 #about-text a {
@@ -213,12 +209,38 @@ img.squiggle {
   height: 85px;
   position: absolute;
   margin-top: -13px;
-  margin-left: 311px;
+  margin-left: 500px;
   transform: rotate(53deg) scaleY(-1);
 }
 
+@media only screen and (min-width: 768px) {
+  #arrow {
+    height: 85px;
+    position: absolute;
+    margin-top: -13px;
+    margin-left: 290px;
+    transform: rotate(53deg) scaleY(-1);
+  }
+}
+
 .screengrab {
-  width: 100%;
-  border: 2px solid #c9c9c9;
+  width: 50%;
+  display: inline-block;
+  float: left;
   margin-bottom: 15px;
+}
+
+#covid-container {
+  background-color: #c9c9c9;
+  color: black;
+  text-align: center;
+  padding: 15px;
+}
+
+#covid-container a {
+  color: black;
+}
+
+#covid-container a:hover {
+  color: gray;
 }
