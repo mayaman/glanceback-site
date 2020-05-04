@@ -21,7 +21,7 @@ body {
   text-align: center;
   font-size: 18px;
   padding-top: 0px;
-  line-height: 26px;
+  line-height: 27px;
   font-family: "Roboto", sans-serif;
 }
 
@@ -48,7 +48,7 @@ div#gallery {
   margin-right: auto;
   margin-bottom: 90px;
   display: block;
-  width: 60%;
+  width: 55%;
 }
 
 img.logo {
@@ -161,14 +161,14 @@ img.squiggle {
 }
 
 .home-glance {
-  width: 30%;
+  width: 31%;
   margin: 0px 2% 2% 0px;
   display: inline-block;
   float: left;
 }
 
 #covid-container {
-  background-color: #c9c9c9;
+  background-color: #f1ff26;
   color: black;
   text-align: center;
   padding: 5px;
@@ -181,5 +181,5 @@ img.squiggle {
 }
 
 #covid-container a:hover {
-  color: gray;
+  opacity: 0.5;
 }
