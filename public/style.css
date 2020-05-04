@@ -73,14 +73,6 @@ img.logo {
   line-height: 44px;
 }
 
-div#privacy-text {
-  color: #c9c9c9;
-  text-align: center;
-  padding: 20px;
-  line-height: 2em;
-  font-family: "Roboto", sans-serif;
-}
-
 #link-border {
   width: 300px;
 }
@@ -107,74 +99,12 @@ a#extension-link:hover {
 }
 
 /*
-************ SETTINGS ************ 
- */
-
-#menu {
-  float: right;
-  margin-right: 20px;
-  text-align: right;
-  padding-top: 55px;
-  font-size: 1.2em;
-  color: #c9c9c9;
-}
-
-@media (max-width: 600px) {
-  #menu {
-    float: right;
-    margin-right: 20px;
-    text-align: right;
-    padding-top: 55px;
-    font-size: 2em;
-    color: #c9c9c9;
-  }
-}
-
-#menu-title {
-  width: 15px;
-  height: 15px;
-}
-
-#menu-title:hover {
-  cursor: pointer;
-}
-
-#menu-options {
-  display: block;
-}
-
-#menu-options:hover {
-  cursor: pointer;
-}
-
-.menu-option {
-  padding-top: 5px;
-}
-
-.menu-option:hover {
-  color: white;
-}
-
-#about {
-  text-decoration: none;
-  color: #c9c9c9;
-}
-
-/*
 ************ ABOUT ************ 
  */
 
 #gif-container {
   width: 80%;
   text-align: center;
-}
-
-#glances-gif {
-  display: block;
-  width: 300px;
-  margin-top: 7%;
-  margin-left: 15%;
-  margin-bottom: 1%;
 }
 
 #splash-div {
@@ -230,11 +160,20 @@ img.squiggle {
   margin-bottom: 15px;
 }
 
+.home-glance {
+  width: 30%;
+  margin: 0px 2% 2% 0px;
+  display: inline-block;
+  float: left;
+}
+
 #covid-container {
   background-color: #c9c9c9;
   color: black;
   text-align: center;
-  padding: 15px;
+  padding: 5px;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 #covid-container a {
