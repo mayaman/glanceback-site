@@ -48,13 +48,13 @@ div#gallery {
   margin-right: auto;
   margin-bottom: 90px;
   display: block;
-  width: 55%;
+  width: 50%;
 }
 
 img.logo {
   margin: auto;
   display: block;
-  width: 15%;
+  width: 20%;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -62,7 +62,7 @@ img.logo {
 #reel {
   margin: auto;
   display: block;
-  width: 50%;
+  width: 55%;
   margin-top: 25px;
   margin-bottom: 25px;
 }
