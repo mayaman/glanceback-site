@@ -55,7 +55,7 @@ img.logo {
   margin: auto;
   display: block;
   width: 20%;
-  margin-top: 25px;
+  /* margin-top: 25px; */
   margin-bottom: 25px;
 }
 
@@ -101,14 +101,13 @@ a#extension-link:hover {
 /*
 ************ ABOUT ************ 
  */
-
 #gif-container {
   width: 80%;
   text-align: center;
 }
 
 #splash-div {
-  padding-top: 5vh;
+  padding-top: 7vh;
 }
 
 #about-text {
@@ -154,9 +153,9 @@ img.squiggle {
 }
 
 .screengrab {
-  width: 50%;
-  display: inline-block;
-  float: left;
+  width: 100%;
+  /* display: inline-block;
+  float: left; */
   margin-bottom: 15px;
 }
 
@@ -168,7 +167,7 @@ img.squiggle {
 }
 
 #covid-container {
-  background-color: #f1ff26;
+  background-color: #ebff6b;
   color: black;
   text-align: center;
   padding: 5px;
@@ -183,3 +182,37 @@ img.squiggle {
 #covid-container a:hover {
   opacity: 0.5;
 }
+
+
+/*
+************ GALLERY ************ 
+ */
+ .gallery-video-container {
+  color: #c9c9c9;
+  margin: auto;
+  margin-top: 25px;
+  display: block;
+  text-align: center;
+  /* display: flex;
+  flex-wrap: wrap; */
+ }
+
+ .gallery-entry {
+   width: 75%;
+   margin: 25px auto;
+   /* border: 1px solid; */
+   display: block;
+   padding: 5px;
+  }
+
+ .gallery-entry video {
+   width: 90%;
+ }
+
+ .gallery-entry video:focus {
+  outline: 1px solid;
+ }
+
+ .gallery-entry-name {
+   margin: 15px;
+ }
