@@ -2,238 +2,238 @@
 @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 @import url("https://fonts.googleapis.com/css?family=Poppins");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
-
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 html {
-  /* background-color: black; */
-  font-family: "Roboto", sans-serif;
-  color: black;
+    color: black;
 }
 
 body {
-  background-color: black;
-  color: #c9c9c9;
-  /* color: white; */
-  text-align: center;
-  font-size: 18px;
-  padding-top: 0px;
-  line-height: 27px;
-  font-family: "Roboto", sans-serif;
-}
-
-body p {
-  font-family: "Roboto", sans-serif;
+    background-color: black;
+    /* color: #c9c9c9; */
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 0px;
+    line-height: 23px;
+    font-family: "Roboto", sans-serif;
 }
 
 h3 {
-  font-family: "Roboto", sans-serif;
-  color: #2c3e50;
-  margin: 50px 0;
-  text-align: center;
+    color: #2c3e50;
+    margin: 50px 0;
+    text-align: center;
 }
 
 .white {
-  color: white;
+    color: white;
 }
 
-::-moz-selection { /* Code for Firefox */
-  color: #ec5b8d;
-  background: white;
+::-moz-selection {
+    /* Code for Firefox */
+    color: #f5a9c3;
+    background: white;
 }
 
 ::selection {
-  color: #ec5b8d;
-  background: white;
+    color: #f5a9c3;
+    background: white;
 }
+
 
 /*
 ************ SPLASH PAGE ************ 
  */
+
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 90px;
-  padding-top: 7vh;
-  display: block;
-  width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 90px;
+    padding-top: 7vh;
+    display: block;
+    width: 50%;
 }
 
 img.logo {
-  margin: auto;
-  display: block;
-  width: 25%;
-  /* margin-top: 25px; */
-  margin-bottom: 25px;
+    margin: auto;
+    display: block;
+    width: 50%;
+    margin-bottom: 25px;
 }
 
 #reel {
-  margin: auto;
-  display: block;
-  width: 66%;
-  margin-top: 25px;
-  margin-bottom: 25px;
+    margin: auto;
+    display: block;
+    width: 66%;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 #intro-text {
-  margin-top: 50px;
-  font-size: 28px;
-  line-height: 36px;
-  font-style: italic;
+    margin-top: 50px;
+    font-size: 28px;
+    line-height: 36px;
+    font-style: italic;
+}
+
+.intro {
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
 }
 
 #link-border {
-  width: 300px;
-}
-
-#extension-link-container {
-  /* margin-top: 5%; */
-  margin-top: 50px;
-  margin-bottom: 50px;
+    width: 300px;
 }
 
 a#extension-link {
-  /* color: #c9c9c9;
-  text-decoration: none;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 175%); */
+    font-size: 30px;
+    line-height: 36px;
+    text-decoration: none;
+    border: 3px solid white;
+    border-radius: 10px;
+    display: inline;
+    padding: 10px;
 }
 
 a#extension-link:hover {
-  color: white;
+    border: 3px solid #f5a9c3;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
+
 
 /*
 ************ ABOUT ************ 
  */
+
 #gif-container {
-  width: 80%;
-  text-align: center;
+    width: 80%;
+    text-align: center;
 }
 
 .copy {
-  margin: auto;
-  margin-top: 25px;
-  display: block;
-  text-align: left;
+    margin: auto;
+    margin-top: 25px;
+    display: block;
+    text-align: left;
 }
 
 img.squiggle {
-  margin: auto;
-  display: block;
-  width: 30%;
+    margin: auto;
+    display: block;
+    width: 30%;
 }
 
 .section-break {
-  text-align: center;
+    text-align: center;
 }
 
 a {
-  color: #c9c9c9;
-  /* text-decoration: none; */
+    /* color: #c9c9c9; */
+    color: white;
+    /* text-decoration: none; */
 }
 
-#about-text a:hover {
-  color: white;
-  /* text-decoration: none; */
+a:hover {
+    color: #f5a9c3;
+    /* text-decoration: none; */
 }
 
 #arrow {
-  height: 85px;
-  position: absolute;
-  margin-top: -13px;
-  margin-left: 500px;
-  transform: rotate(53deg) scaleY(-1);
-}
-
-@media only screen and (min-width: 768px) {
-  #arrow {
     height: 85px;
     position: absolute;
     margin-top: -13px;
-    margin-left: 290px;
+    margin-left: 500px;
     transform: rotate(53deg) scaleY(-1);
-  }
+}
+
+@media only screen and (min-width: 768px) {
+    #arrow {
+        height: 85px;
+        position: absolute;
+        margin-top: -13px;
+        margin-left: 290px;
+        transform: rotate(53deg) scaleY(-1);
+    }
 }
 
 .screengrab {
-  width: 100%;
-  /* display: inline-block;
+    width: 100%;
+    /* display: inline-block;
   float: left; */
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .home-glance {
-  width: 31%;
-  margin: 0px 2% 2% 0px;
-  display: inline-block;
-  float: left;
+    width: 31%;
+    margin: 0px 2% 2% 0px;
+    display: inline-block;
+    float: left;
 }
 
 #covid-container {
-  background-color: #ebff6b;
-  color: black;
-  text-align: center;
-  padding: 5px;
-  font-size: 14px;
-  line-height: 24px;
+    background-color: #ebff6b;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 #covid-container a {
-  color: black;
+    color: black;
 }
 
 #covid-container a:hover {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 
 /*
 ************ GALLERY ************ 
  */
- .gallery-video-container {
-  color: #c9c9c9;
-  margin: auto;
-  margin-top: 25px;
-  display: block;
-  text-align: center;
-  /* display: flex;
+
+.gallery-video-container {
+    color: #c9c9c9;
+    margin: auto;
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+    /* display: flex;
   flex-wrap: wrap; */
- }
+}
 
- .gallery-entry {
-   width: 75%;
-   margin: 25px auto;
-   /* border: 1px solid; */
-   display: block;
-   padding: 5px;
-  }
+.gallery-entry {
+    width: 75%;
+    margin: 25px auto;
+    /* border: 1px solid; */
+    display: block;
+    padding: 5px;
+}
 
- .gallery-entry video {
-   width: 90%;
- }
+.gallery-entry video {
+    width: 90%;
+}
 
- .gallery-entry video:focus {
-  outline: 1px solid;
- }
+.gallery-entry video:focus {
+    outline: 1px solid;
+}
 
- .gallery-entry-name {
-   margin: 15px;
- }
+.gallery-entry-name {
+    margin: 15px;
+}
 
- .question {
-   font-weight: bold;
- }
+.question {
+    font-weight: bold;
+}
 
- .qa {
-   margin: 25px 0;
- }
+.qa {
+    margin: 25px 0;
+}
